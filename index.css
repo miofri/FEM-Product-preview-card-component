@@ -58,7 +58,7 @@ body {
 
 .product-name {
 	margin-top: 6%;
-	margin-bottom: 10%;
+	margin-bottom: 7%;
 	padding-right: 5%;
 	font-family: 'Fraunces', serif;
 	width: fit-content;
@@ -69,7 +69,7 @@ body {
 }
 
 .prices {
-	margin-top: 8%;
+	margin-top: 5%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
