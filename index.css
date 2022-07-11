@@ -129,9 +129,14 @@ img {
 	background-color: #3d8168;
 	border-radius: 8px;
 	margin-top: 7%;
-	/* margin-right: 2vw; */
 	width: 89%;
 	height: 11%;
+	transition: 0.5s;
+}
+
+.cart-container:hover {
+	transition: 0.5s;
+	background-color: #1a4031;
 }
 
 .cart-img {
