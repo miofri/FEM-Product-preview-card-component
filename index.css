@@ -27,7 +27,7 @@ body {
 }
 
 .desc {
-	font-size: 1.6vh;
+	font-size: 1vw;
 	line-height: 1.5;
 	width: 80%;
 	font-family: 'Montserrat', sans-serif;
@@ -37,7 +37,7 @@ body {
 .type {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500, 700;
-	font-size: 1.6vh;
+	font-size: 1vw;
 	width: fit-content;
 	color: hsl(228, 12%, 48%);
 	margin-top: 12%;
@@ -46,11 +46,12 @@ body {
 .product-name {
 	margin-top: 6%;
 	margin-bottom: 10%;
+	padding-right: 5%;
 	font-family: 'Fraunces', serif;
 	width: fit-content;
 	color: hsl(212, 21%, 14%);
 	font-weight: 700;
-	font-size: 4vh;
+	font-size: 2.6vw;
 	line-height: 1;
 }
 
@@ -66,8 +67,9 @@ body {
 	font-family: 'Fraunces', serif;
 	color: #3d8168;
 	font-weight: 700;
-	font-size: 4vh;
-	width: 12vw;
+	font-size: 2.5vw;
+	width: fit-content;
+	padding-right: 6%;
 }
 
 .original-price {
@@ -76,15 +78,18 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: hsl(228, 12%, 48%);
 	text-decoration: line-through;
-	font-size: 1.6vh;
+	font-size: 1vw;
 
 }
 
 img {
-	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
 }
 
 .img-container {
+	width: 50%;
 	overflow: hidden;
 	border-bottom-left-radius: 3%;
 	border-top-left-radius: 3%;
@@ -97,7 +102,8 @@ img {
 .text-container {
 	display: inline-block;
 	padding-right: 0%;
-	width: 38vw;
+	width: 50%;
+	height: 100%;
 	background-color: white;
 	text-align: left;
 	padding-left: 5%;
@@ -112,9 +118,9 @@ img {
 	background-color: #3d8168;
 	border-radius: 8px;
 	margin-top: 12%;
-	margin-right: 2vw;
-	width: 19vw;
-	height: 6vh;
+	/* margin-right: 2vw; */
+	width: 89%;
+	height: 11%;
 }
 
 .cart-img {
@@ -125,13 +131,13 @@ img {
 .add-to-cart {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 1.6vh;
+	font-size: 1vw;
 	text-align: center;
 	color: white;
 
 }
 
-@media all and (max-width: 376px) {
+@media all and (max-width: 912px) {
 
 	body {
 		display: flex;
@@ -193,9 +199,7 @@ img {
 		width: fit-content;
 	}
 
-	.discount-price {
-		width: 33vw;
-	}
+	.discount-price {}
 
 	.cart-container {
 		width: 77vw;
