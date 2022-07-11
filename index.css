@@ -1,4 +1,6 @@
 .attribution {
+	padding-top: 20px;
+
 	font-size: 11px;
 	text-align: center;
 	font-family: "Montserrat";
@@ -9,6 +11,7 @@
 }
 
 .cont {
+	margin-top: 10px;
 	position: fixed;
 	width: 50%;
 	margin-left: -25%;
@@ -25,7 +28,7 @@ body {
 	margin: auto;
 	margin-top: 20vh;
 	width: 48vw;
-	height: 55vh;
+	height: 57vh;
 	text-align: center;
 	display: flex;
 	flex-direction: row;
@@ -130,7 +133,7 @@ img {
 	border-radius: 8px;
 	margin-top: 7%;
 	width: 89%;
-	height: 11%;
+	height: 10%;
 	transition: 0.5s;
 }
 
