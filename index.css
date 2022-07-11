@@ -175,7 +175,7 @@ img {
 		margin-top: 20px;
 		margin-left: auto;
 		width: 90vw;
-		height: 97vh;
+		height: fit-content;
 		display: flex;
 		flex-direction: column;
 	}
@@ -241,8 +241,8 @@ img {
 
 	.cart-container {
 		width: 77vw;
-		height: 12%;
-		margin-bottom: 6.5vh;
+		height: 6vh;
+		margin-bottom: 3.5vh;
 		margin-top: 3vh;
 	}
 
