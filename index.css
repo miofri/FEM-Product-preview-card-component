@@ -3,11 +3,9 @@ h1 {
 }
 
 .attribution {
-	padding-top: 20px;
-
-	font-size: 11px;
+	font-size: 1.5vh;
 	text-align: center;
-	font-family: "Montserrat";
+	font-family: 'Montserrat', sans-serif;
 }
 
 .attribution a {
@@ -15,7 +13,6 @@ h1 {
 }
 
 .cont {
-	margin-top: 10px;
 	position: fixed;
 	width: 50%;
 	margin-left: -25%;
@@ -58,7 +55,7 @@ body {
 
 .product-name {
 	margin-top: 6%;
-	margin-bottom: 10%;
+	margin-bottom: 7%;
 	padding-right: 5%;
 	font-family: 'Fraunces', serif;
 	width: fit-content;
@@ -69,7 +66,7 @@ body {
 }
 
 .prices {
-	margin-top: 8%;
+	margin-top: 5%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -139,6 +136,7 @@ img {
 	width: 89%;
 	height: 10%;
 	transition: 0.5s;
+	cursor: pointer;
 }
 
 .cart-container:hover {
@@ -164,14 +162,20 @@ img {
 
 	body {
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.cont {
+		position: unset;
+		margin-left: 25%;
 	}
 
 	#container {
 		margin-top: 20px;
 		margin-left: auto;
 		width: 90vw;
-		height: 97vh;
+		height: fit-content;
 		display: flex;
 		flex-direction: column;
 	}
@@ -237,8 +241,8 @@ img {
 
 	.cart-container {
 		width: 77vw;
-		height: 12%;
-		margin-bottom: 6.5vh;
+		height: 6vh;
+		margin-bottom: 3.5vh;
 		margin-top: 3vh;
 	}
 
